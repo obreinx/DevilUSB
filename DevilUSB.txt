@@ -12,7 +12,6 @@
  ##############################################################                   
 //Scripted By Jafar Al-Qudah @Obr
 //This DigiSpark script Works As A Rubber Ducky All You Need Is To Create A PowerShell Web_Delivery Payload 
-//And Compile it With Aurdino Application
 //Aurdino Module Used is Digispark ATtiny85
 #include "DigiKeyboard.h"
 void setup() {
