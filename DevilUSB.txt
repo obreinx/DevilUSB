@@ -20,13 +20,14 @@ void setup() {
 
 void loop() {
  DigiKeyboard.sendKeyStroke(0);
- DigiKeyboard.delay(500);
+ DigiKeyboard.delay(300);
  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
  DigiKeyboard.print("cmd");
  DigiKeyboard.sendKeyStroke(KEY_ENTER);
 //Replace "***" With Your Payload
  DigiKeyboard.print("***");
  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+ DigiKeyboard.delay(200);
  DigiKeyboard.print("exit");
  DigiKeyboard.sendKeyStroke(KEY_ENTER);
  
